@@ -1,6 +1,6 @@
+import { domHelper } from 'sling-helpers';
 import { LitElement } from '@polymer/lit-element';
 import { withPropertyToAttribute } from './withPropertyToAttribute.js';
-import { domHelper } from 'sling-helpers';
 
 describe('withPropertyToAttribute', () => {
   class PropAttrLitElement extends withPropertyToAttribute(LitElement) {
