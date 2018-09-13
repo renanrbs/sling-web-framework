@@ -1,5 +1,5 @@
 import { LitElement } from '@polymer/lit-element';
-import { globalHelper, onSdkAvailable } from '../../node_modules/sling-helpers/src/index.js';
+import { globalHelper, onSdkAvailable } from 'sling-helpers';
 
 export const withBusinessLogic = (Base = LitElement) =>
   class extends Base {
